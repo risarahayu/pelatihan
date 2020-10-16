@@ -1,0 +1,401 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #fbfbfb;
+    margin:0;
+    padding:0;
+  }
+  .header{
+      height: 120px;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      margin-bottom: 0px;
+      box-sizing: border-box;
+
+  }
+ 
+  .logo img{
+      height: 50%;
+      width: 200px;
+      margin-left: 170px;
+      margin-top: 35px;
+
+      
+  }
+
+  .navigasi{
+      display: flex;
+      list-style-type: none;
+      
+  }
+  .nav{
+      margin-left: auto;
+      margin-right: 170px;
+      margin-top: 20px;
+
+  }
+  .navigasi{
+    justify-content: space-around;
+  }
+  .navigasi li{
+    margin:10px 20px;
+  }
+  .foto{
+      width: 100%;
+      height: 500px;
+      background: url('https://wallpaperaccess.com/full/1143632.jpg');
+      background-repeat: no-repeat;
+      color: white;
+      background-size: cover;
+  }
+  .header-foto{
+      width: 100%;
+  }
+  .definisi{
+      width: 100%;
+  }
+      
+.isi{
+    margin-left: 170px;
+    padding-top: 100px;
+    text-align: left;
+
+
+}
+
+.foto .isi h2{
+text-transform: uppercase;
+font-size: 15px;
+}
+
+.isi button{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+.isi-definisi{
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-top: 0px;
+}
+.isi-definisi h2{
+    color:  rgb(253, 91, 91) ;
+}
+.isi-definisi p{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.definisi{
+    margin: 0px;
+    padding: 0px;
+}
+.isi-definisi button{
+    background: transparent;
+    border: 3px solid rgb(253, 91, 91);
+    color: rgb(252, 98, 98);
+    height: 40px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+.pemandangan{
+    display: flex;
+}
+.pemandangan p{
+    font-size: smaller;
+}
+.pemandangan img{
+    height: 250px;
+    width: 350px;
+ 
+}
+.box-wrap1{
+    height: 500px;
+    width: 50%;
+    background-color:rgb(236, 235, 235);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.box-wrap2{
+    height: 500px;
+    width: 50%;
+    background-color:rgb(226, 225, 225);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.wrap-wrap{
+
+    width: 350px;
+}
+
+.wrap-wrap h2{
+    color: rgb(252, 98, 98);
+}
+.fitur{
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+
+.fitur .box{
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+
+    
+}
+
+.fitur .box h2{
+    color: rgb(252, 98, 98);
+}
+.fitur img{
+    width: 50px;
+    height: 50px;
+}
+.fitur .box p{
+   line-height: 30px;
+}
+
+.fitur button{
+    border: 3px solid rgb(252, 98, 98);
+    color: rgb(252, 98, 98);
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+
+}
+
+.form{
+    background-color: rgb(252, 98, 98);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+.wrap-judul{
+    margin: 20px;
+
+}
+.wrap-area{
+    margin: 20px;
+}
+
+
+.wrap-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.wrap-nama{
+    width: 50%;
+    align-content: flex-start;
+    margin: 20px;
+
+}
+.wrap-email{
+    width: 50%;
+    align-content: flex-start;
+    margin: 20px;
+}
+textarea{
+    width: 100%;
+}
+
+.input{
+    background-color: transparent;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+ input{
+     width: 100%;
+     height: 30px;
+     margin-right: 30px;
+     box-sizing: border-box;
+ }
+
+ .form button{
+     background-color: transparent;
+     border: 3px solid white;
+     height: 50px;
+     width: 160px;
+     color: white;
+     margin: 20px;
+ }
+ .wrap-wrap-form{
+     margin-left: 150px;
+     margin-right: 150px;
+ }
+
+/*responsif*/
+/*responsif*/
+/*responsif*/
+/*responsif*/
+/*responsif*/
+/*responsif*/
+
+ @media(max-width: 500px){
+    .logo {
+        
+        text-align: center;
+        margin-top: 10px;
+        margin-right:  auto;
+       
+      }
+      .foto {
+        height:270px;
+        text-align:center;
+  
+      }
+      
+  .logo img{
+    width: 40px;
+    height: 30px;
+    margin:0;
+    margin-left: 10px;
+}
+.header{
+    height: 50px;
+    display: flex;
+    margin: 0;
+}
+
+.nav{
+margin: 0;
+background-image: url('https://freight.cargo.site/t/original/i/7b7bf66c40891dddce0b42f2a8f2d1b987999384c32d1729f653647039f937ef/menu.png');
+height: 40px;
+width: 40px;
+
+
+
+}
+.nav ul{
+    margin: 0;
+    }
+.navigasi{
+  justify-content: space-around;
+  margin: 0;
+  padding-inline-start: 0px;
+ 
+}
+.navigasi li{
+    display: none;
+    margin:0;
+}
+.isi {
+    margin-left: 0px;
+    padding-top: 100px;
+    margin-left: 10px;
+}
+.isi-definisi {
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 0px;
+    font-size: 10px;
+}
+
+.pemandangan {
+    display: flex;
+    flex-direction: column;
+}
+.pemandangan img {
+    height: 100px;
+    width: 100%;
+}
+.fitur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.box-wrap1 {
+    
+    width: 100%;
+    padding: 0px;
+    height: 300px;
+    
+}
+.box-wrap2 {
+    
+    width: 100%;
+    padding: 0px;
+    height: 300px;
+    
+    
+}
+.wrap-wrap{
+    margin: 10px;
+    width: 100%;
+ 
+}
+      
+.wrap-wrap p{
+    font-size: 10px;
+}
+.fitur{
+    font-size: 10px;
+    margin: 10px;
+}
+.fitur button {
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgb(252, 98, 98);
+    
+ }
+ .wrap-wrap-form {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.form{
+    font-size: 10px;
+}
+.wrap-judul {
+    margin: 10px;
+}
+input {
+    width: 100%;
+    height: 20px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+.wrap-nama {
+    width: 70%;
+    margin: 10px;
+}
+.wrap-email {
+    width: 70%;
+    margin: 10px;
+}
+.wrap-area {
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    height: 70px;
+}
+.form button {
+
+    height: 25px;
+    width: 100px;
+    margin: 10px;
+    font-size: 10px;
+    border: 1px solid white;
+}
+
+ }

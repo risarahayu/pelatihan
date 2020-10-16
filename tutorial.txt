@@ -1,0 +1,30 @@
+dir
+dijadiin git dlu foldernya : git init (pastikan sudah di folder projek)
+buat index. html (type nul > index.html)
+dir
+git status
+buatin filenya jadi git (git add index.html)
+
+git status (pastinya dia di branch master)
+terus tabahin catatan di tiap perubahan (git commit -m "catatannya ex : aku tambahin detile")
+habistu login (ikutin aja perintahnya)
+
+
+
+git log untuk melihat list perubahan
+
+git branch (unutk mengetahui kita ada di branch mana)
+
+git checkout -b nama-cabang-baru (untuk memuat branch baru)
+
+git checkout 06f735af7724558164c87f6b1ce3ca7778eb1c1b (untuk mengubah ke keadaan sebelumnya atau cara balik lagi ke yag sebelumnya)
+
+Git Revert 06f735af7724558164c87f6b1ce3ca7778eb1c1b (tidak disarankan karena akan menghapus history jarak antar id masa lalu dansekarang)
+
+git merge unutk jadiin 1 file ke branch lain
+
+
+1 brach 1 komit?
+cara jadi 1 master dengan brand teman?
+cra ngedit di windows?
+comit ga kebilatan di github
